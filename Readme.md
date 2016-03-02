@@ -12,17 +12,6 @@ If you like the internet
 * Enter this Password:
   "draw monte autumn blythe poach"
 
-Itinerary
----------
-
-* 6:30 - begin
-* Ray says things
-* Sara says things
-* You can ask me qs
-* Unless I get annoyed, then you can't
-* Ray will kick me out when I go over
-  (sry, Ray)
-
 
 Some context
 ------------
@@ -30,12 +19,13 @@ Some context
 See requests and responses and such:
 [https://vimeo.com/150717928](https://vimeo.com/150717928)
 
+
 Sort have a plan
 ----------------
 
 1. What is HTTP? See a request and response
-   * request: `$ nc -l 3000` (now make a request)
-   * response: `$ curl -i google.com`
+   * Browser will send request: `$ nc -l 3000` (now make a request)
+   * Will receive a response: `$ curl -i google.com`
 2. What is a webserver?
    * Receives the request
    * Parses it into a hash (the hash is defined by the "rack" interface)
