@@ -21,7 +21,7 @@ end
 
 
 if $PROGRAM_NAME == __FILE__
-  $LOAD_PATH.unshift(File.expand_path('lib', __dir__))
+  require_relative 'lib/doltata'
   require 'rack'
-  Rack::Handler.default.run(DoubleApp, Port: 9299, Host: 'localhost')
+  Doltata.run(DoubleApp, Port: 3001, Host: 'localhost')
 end
