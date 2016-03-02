@@ -26,9 +26,7 @@ end
 
 def Doltata.printy_thing(socket, status, headers, body)
   socket.print "HTTP/1.1 #{status} some text goes here *shrug*\r\n"
-  headers.each do |key, value|
-    socket.print "#{key}: #{value}\r\n"
-  end
+  headers.each { |key, value| socket.print "#{key}: #{value}\r\n" }
   socket.print "\r\n"
   body.each { |line| socket.print line }
 end

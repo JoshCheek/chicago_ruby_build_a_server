@@ -14,14 +14,13 @@ class DoubleApp < Sinatra::Base
   end
 
   post '/result' do
-    result = params[:number].to_i*2
-    "<p>Your number was: #{result}</p>\n" + form
+    result = params[:number].to_i * 2
+    "<p>2 * #{params[:number]} = #{result}</p>\n" + form
   end
 end
 
 
 if $PROGRAM_NAME == __FILE__
   require_relative 'lib/doltata'
-  require 'rack'
   Doltata.run(DoubleApp, Port: 3001, Host: 'localhost')
 end
