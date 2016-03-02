@@ -4,15 +4,6 @@ Live Coding an HTTP Server
 Ty [ThoughtWorks](https://www.thoughtworks.com/)
 and [Chicago Ruby](http://www.meetup.com/ChicagoRuby/events/224923424/).
 
-If you like the internet
-------------------------
-
-* Join this thing:
-  "twguest"
-* Enter this Password:
-  "draw monte autumn blythe poach"
-
-
 Some context
 ------------
 
@@ -20,8 +11,8 @@ See requests and responses and such:
 [https://vimeo.com/150717928](https://vimeo.com/150717928)
 
 
-Sort have a plan
-----------------
+Sorta have a plan
+-----------------
 
 1. What is HTTP? See a request and response
    * Browser will send request: `$ nc -l 3000` (now make a request)
@@ -36,4 +27,3 @@ Sort have a plan
 6. Unit tests
 7. ???
 8. Profit!
-
