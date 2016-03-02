@@ -54,38 +54,4 @@ RSpec.describe 'Doltata.parsy_thing' do
       expect(@env['rack.input'].read).to eq "some body"
     end
   end
-
-
 end
-
-__END__
-Host: localhost:3000
-Connection: keep-alive
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
-Accept-Encoding: gzip, deflate, sdch
-Accept-Language: en-US,en;q=0.8
-
-__END__
-{"SERVER_SOFTWARE"=>"thin 1.6.4 codename Gob Bluth",
- "SERVER_NAME"=>"localhost",
- "rack.version"=>[1, 0],
- "rack.errors"=>#<IO:<STDERR>>,
- "rack.multithread"=>false,
- "rack.multiprocess"=>false,
- "rack.run_once"=>false,
- "REQUEST_PATH"=>"/result",
- "REQUEST_URI"=>"/result",
- "HTTP_HOST"=>"localhost:9299",
- "HTTP_CONNECTION"=>"keep-alive",
- "HTTP_CACHE_CONTROL"=>"max-age=0",
- "HTTP_ACCEPT"=>"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
- "HTTP_ORIGIN"=>"http://localhost:9299",
- "HTTP_UPGRADE_INSECURE_REQUESTS"=>"1",
- "HTTP_USER_AGENT"=>
-  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36",
- "HTTP_REFERER"=>"http://localhost:9299/",
- "HTTP_ACCEPT_ENCODING"=>"gzip, deflate",
- "HTTP_ACCEPT_LANGUAGE"=>"en-US,en;q=0.8",
- "GATEWAY_INTERFACE"=>"CGI/1.2",
- "SERVER_PORT"=>"9299",
