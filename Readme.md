@@ -4,6 +4,9 @@ Live Coding an HTTP Server
 Ty [ThoughtWorks](https://www.thoughtworks.com/)
 and [Chicago Ruby](http://www.meetup.com/ChicagoRuby/events/224923424/).
 
+[Video](https://vimeo.com/157390424) of the presentation
+(downloading the higher quality version is the best way to see, due to the resolution).
+
 Some context
 ------------
 
